@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ecd0a045efbf54e24b23689ae02e45e3
+guid: 5dc29a5c71ca72144bc9e142ef58e189
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5487135156456055799
-    second: Blue_P_0
+      213: -5001445068194176348
+    second: New_Spaceship_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue_P_0
+      name: New_Spaceship_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1776
-        height: 2108
+        width: 2965
+        height: 1384
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90c11e4b5a7c9d3b0800000000000000
-      internalID: -5487135156456055799
+      spriteID: 4a228a2953c479ab0800000000000000
+      internalID: -5001445068194176348
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Blue_P_0: -5487135156456055799
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -7,43 +7,21 @@ public class LabyrinthItemHandler : Draggable
     private LabyrinthHandler handler;
     private bool onGoal;
 
-    void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
     private void Start()
     {
         moveSpeed = 150;
         handler = GameObject.Find("Labyrinth").GetComponent<LabyrinthHandler>();
     }
 
-    void Update()
+    protected new void OnMouseDown()
     {
-        if(selected)
-        {
-            OnDrag();
-        }
-    }
-
-    private void OnDrag()
-    {
-        var mouseDeltaX = Input.GetAxis("Mouse X");
-        var mouseDeltaY = Input.GetAxis("Mouse Y");
-
-        rb.linearVelocity = ((Vector2.right * mouseDeltaX) + (Vector2.up * mouseDeltaY)) * moveSpeed;
-    }
-
-
-    private void OnMouseDown()
-    {
-        selected = true;
+        base.OnMouseDown();
         rb.WakeUp();
     }
 
-    private void OnMouseUp() 
+    protected new void OnMouseUp() 
     { 
-        selected = false;
+        base.OnMouseUp();
         if(!onGoal)
         {
             rb.Sleep();
