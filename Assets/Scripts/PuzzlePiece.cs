@@ -10,10 +10,12 @@ public class PuzzlePiece : MonoBehaviour, IPointerClickHandler, IBeginDragHandle
 
     private Vector3 initialPosition;
     private Vector3 offset;
-    private bool isPlaced = false;
+    public bool isPlaced = false;
 
     private SpriteRenderer targetRenderer;
     private SpriteRenderer thisRenderer;
+
+    private MapPuzzleHandler mapPuzzleHandler;
 
     void Start()
     {
@@ -27,6 +29,12 @@ public class PuzzlePiece : MonoBehaviour, IPointerClickHandler, IBeginDragHandle
 
         targetRenderer.enabled = false;
         initialPosition = transform.position;
+        mapPuzzleHandler = GetComponentInParent<MapPuzzleHandler>();
+    }
+
+    public bool IsPlaced()
+    {
+        return isPlaced;
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -79,6 +87,9 @@ public class PuzzlePiece : MonoBehaviour, IPointerClickHandler, IBeginDragHandle
             {
                 placeSound.Play();
             }
+
+            // Check if all puzzle pieces are placed 
+            mapPuzzleHandler.CheckAllPuzzlePlaced();
         }
         else
         {
