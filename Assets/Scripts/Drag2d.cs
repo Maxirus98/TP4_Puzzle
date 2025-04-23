@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class Drag2d : MonoBehaviour
 {
@@ -73,8 +74,7 @@ public class Drag2d : MonoBehaviour
             Lamp1fix.SetActive(true);
             Lamp2fix.SetActive(true);
             col.enabled = false;
-            cameraController.MoveCameraTo(nextTransform.position);
-            wallPuzzle.SetActive(false);
+            StartCoroutine(nameof(NextView));
         }    
         else
         {
@@ -90,5 +90,12 @@ public class Drag2d : MonoBehaviour
             Succesfull.Play();
             col.enabled = true;
         }
+    }
+
+    private IEnumerator NextView()
+    {
+        yield return new WaitForSeconds(2);
+        cameraController.MoveCameraTo(nextTransform.position);
+        wallPuzzle.SetActive(false);
     }
 }
