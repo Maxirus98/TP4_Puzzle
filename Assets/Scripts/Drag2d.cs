@@ -17,12 +17,15 @@ public class Drag2d : MonoBehaviour
     public GameObject Lamp2;
     public AudioSource Succesfull;
 
+    [SerializeField] private Transform nextTransform;
+    private CameraController cameraController;
     private Collider2D col;
 
     private Vector3 offset;
 
     private void Start()
     {
+        cameraController = Camera.main.GetComponent<CameraController>();
         col = GetComponent<Collider2D>();
         Plantetriste.SetActive(true);
         Plantecontente.SetActive(false);
@@ -69,6 +72,7 @@ public class Drag2d : MonoBehaviour
             Lamp1fix.SetActive(true);
             Lamp2fix.SetActive(true);
             col.enabled = false;
+            cameraController.MoveCameraTo(nextTransform.position);
         }    
         else
         {

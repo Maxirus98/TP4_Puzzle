@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public  class AudioCaller : MonoBehaviour
@@ -8,7 +9,8 @@ public  class AudioCaller : MonoBehaviour
     [SerializeField] private AudioClip PaperSound;
     [SerializeField] private AudioClip BellSound;
     [SerializeField] private AudioClip RockSound;
-
+    [SerializeField] private AudioClip WinSound;
+    [SerializeField] private AudioClip ApplauseSound;
     private void Awake()
     {
         MainChannel = GetComponent<AudioSource>();
@@ -32,5 +34,14 @@ public  class AudioCaller : MonoBehaviour
     public void PlayRock()
     {
         MainChannel.PlayOneShot(RockSound);
+    }
+
+    public void PlayWin()
+    {
+        MainChannel.PlayOneShot(WinSound);
+    }
+
+    public void PlayApplause() {
+        MainChannel.PlayOneShot(ApplauseSound);
     }
 }
