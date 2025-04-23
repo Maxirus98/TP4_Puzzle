@@ -3,6 +3,7 @@ using UnityEngine;
 public class NextArrowScript : MonoBehaviour
 {
     [SerializeField] private Transform cameraDestTransform;
+    [SerializeField] private AudioCaller caller;
     private CameraController controller;
     private SpriteRenderer sr;
 
@@ -26,5 +27,6 @@ public class NextArrowScript : MonoBehaviour
     private void OnMouseDown()
     {
         controller.MoveCameraTo(cameraDestTransform.position);
+        caller.PlayClick();
     }
 }

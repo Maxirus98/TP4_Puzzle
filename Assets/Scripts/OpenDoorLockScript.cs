@@ -4,7 +4,7 @@ public class OpenDoorLockScript : MonoBehaviour
 {
     private SpriteRenderer sr;
     [SerializeField] private GameObject codePorte;
-
+    [SerializeField] private AudioCaller caller;
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -29,5 +29,6 @@ public class OpenDoorLockScript : MonoBehaviour
     private void OnMouseDown()
     {
         codePorte.SetActive(!codePorte.activeInHierarchy);
+        caller.PlayBell();
     }
 }

@@ -6,7 +6,7 @@ public class MapFlip : MonoBehaviour
     private SpriteRenderer sr;
     [SerializeField] private GameObject mapFront;
     [SerializeField] private GameObject mapBack;
-
+    [SerializeField] private AudioCaller caller;
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -30,5 +30,7 @@ public class MapFlip : MonoBehaviour
     {
         mapFront.SetActive(!mapFront.activeInHierarchy);
         mapBack.SetActive(!mapBack.activeInHierarchy);
+
+        caller.PlayClick();
     }
 }

@@ -3,8 +3,12 @@ using UnityEngine;
 public class NextButtonSpriteScript : MonoBehaviour
 {
     [SerializeField] private Transform cameraDestTransform;
+    [SerializeField] private AudioCaller caller;
+
     private SpriteRenderer[] srs;
     private CameraController controller;
+    
+
     void Start()
     {
         srs = transform.GetComponentsInChildren<SpriteRenderer>();
@@ -30,8 +34,7 @@ public class NextButtonSpriteScript : MonoBehaviour
     private void OnMouseDown()
     {
         var cameraDest = new Vector3(cameraDestTransform.position.x, cameraDestTransform.position.y, -10);
-
-        // Make it lerp
         controller.transform.position = cameraDest;
+        caller.PlayPaper();
     }
 }

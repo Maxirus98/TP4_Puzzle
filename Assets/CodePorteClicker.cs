@@ -9,6 +9,7 @@ public class CodePorteClicker : MonoBehaviour
 
     [SerializeField] private CodePorteHandler handler;
     [SerializeField] private DoorLockData doorLockLink;
+    [SerializeField] private AudioCaller audioCaller;
 
     private SpriteRenderer sr;
     [SerializeField] char defaultId;
@@ -39,6 +40,7 @@ public class CodePorteClicker : MonoBehaviour
     private void OnMouseDown()
     {
         CycleHoloIcons();
+        audioCaller.PlayBell();
     }
 
     private void CycleHoloIcons()
