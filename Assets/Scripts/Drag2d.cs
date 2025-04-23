@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
 
 public class Drag2d : MonoBehaviour
 {
-
     private float offsetX;
     private bool dragging = false;
     public float minX = -3f;
@@ -21,13 +17,13 @@ public class Drag2d : MonoBehaviour
     public GameObject Lamp2;
     public AudioSource Succesfull;
 
-    
-
+    private Collider2D col;
 
     private Vector3 offset;
 
     private void Start()
     {
+        col = GetComponent<Collider2D>();
         Plantetriste.SetActive(true);
         Plantecontente.SetActive(false);
 
@@ -44,15 +40,12 @@ public class Drag2d : MonoBehaviour
             dragging = true;
 
         }
-          
     }
 
     private void OnMouseUp()
     {
         dragging = false;
     }
-
-   
 
     // Update is called once per frame
     void Update()
@@ -64,7 +57,7 @@ public class Drag2d : MonoBehaviour
             transform.position = new Vector3(newX, transform.position.y, transform.position.z);
         }
 
-        if ( transform.localPosition.x <= -3f)
+        if ( transform.localPosition.x <= minX)
         {
             Plantetriste.SetActive(false);
             Plantecontente.SetActive(true);
@@ -75,14 +68,10 @@ public class Drag2d : MonoBehaviour
             Lamp2.SetActive(false);
             Lamp1fix.SetActive(true);
             Lamp2fix.SetActive(true);
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
-
-
+            col.enabled = false;
         }    
-
         else
         {
-
             Plantetriste.SetActive(true);
             Plantecontente.SetActive(false);
             Bridge.SetActive(false);
@@ -93,14 +82,7 @@ public class Drag2d : MonoBehaviour
             Lamp1.SetActive(true);
             Lamp2.SetActive(true);
             Succesfull.Play();
-            gameObject.GetComponent<BoxCollider2D>().enabled = true;
-
+            col.enabled = true;
         }
-
-       
     }
-
-   
-
-
 }

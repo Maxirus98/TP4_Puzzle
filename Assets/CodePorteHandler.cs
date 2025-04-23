@@ -35,6 +35,7 @@ public class CodePorteHandler : MonoBehaviour
         // Do it once
         if (completed)
         {
+            nextTransform.gameObject.SetActive(true);
             controller.MoveCameraTo(nextTransform.position);
             viewHologramScript.gameObject.SetActive(false);
             gameObject.SetActive(false);
