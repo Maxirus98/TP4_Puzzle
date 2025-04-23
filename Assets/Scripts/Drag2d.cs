@@ -18,6 +18,7 @@ public class Drag2d : MonoBehaviour
     public AudioSource Succesfull;
 
     [SerializeField] private Transform nextTransform;
+    [SerializeField] private GameObject wallPuzzle;
     private CameraController cameraController;
     private Collider2D col;
 
@@ -73,6 +74,7 @@ public class Drag2d : MonoBehaviour
             Lamp2fix.SetActive(true);
             col.enabled = false;
             cameraController.MoveCameraTo(nextTransform.position);
+            wallPuzzle.SetActive(false);
         }    
         else
         {

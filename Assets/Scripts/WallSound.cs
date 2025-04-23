@@ -44,11 +44,4 @@ public class WallSound : MonoBehaviour
             hitSound.Play();
         }
     }
-    
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -7,7 +7,7 @@ public class TreasureScript : MonoBehaviour
     [SerializeField] private Sprite treasureOpen;
     [SerializeField] private GameObject carrot;
     [SerializeField] private AudioCaller caller;
-
+    [SerializeField] private GameObject canvasFin;
     private bool opened = false;
 
     private void Awake()
@@ -37,6 +37,7 @@ public class TreasureScript : MonoBehaviour
             sr.sprite = treasureOpen;
             godRaySr.enabled = true;
             carrot.SetActive(true);
+            canvasFin.SetActive(true);
             caller.PlayWin();
             caller.PlayApplause();
         }
