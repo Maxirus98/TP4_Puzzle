@@ -14,7 +14,7 @@ public class CodePorteHandler : MonoBehaviour
     [SerializeField] private GameObject codePorteIconList;
     [SerializeField] private DoorLockData[] doorLockDataArray;
     [SerializeField] private Transform nextTransform;
-    [SerializeField] private PlayableDirector timelineDoor;
+
     private CameraController controller;
     private readonly char[] GOOD_ANSWER = new char[6] { 's', 'c', 't', 't', 's', 'c' };
     private bool completed = false;
@@ -70,6 +70,6 @@ public class CodePorteHandler : MonoBehaviour
     {
         viewHologramScript.ToggleHologram();
         doorLockRenderer.sprite = !viewHologramScript.IsEyeOpen ? eyeOpenSR : eyeCloseSR;
-        //codePorteIconList.SetActive(!viewHologramScript.IsEyeOpen);
+        codePorteIconList.SetActive(!viewHologramScript.IsEyeOpen);
     }
 }
