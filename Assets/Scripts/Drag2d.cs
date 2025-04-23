@@ -97,5 +97,6 @@ public class Drag2d : MonoBehaviour
         yield return new WaitForSeconds(2);
         cameraController.MoveCameraTo(nextTransform.position);
         wallPuzzle.SetActive(false);
+        this.enabled = false;
     }
 }

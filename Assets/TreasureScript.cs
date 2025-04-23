@@ -34,7 +34,7 @@ public class TreasureScript : MonoBehaviour
     {
         if(!opened) {
             opened = true;
-            sr.sprite = treasureOpen;
+            sr.enabled = false;
             godRaySr.enabled = true;
             carrot.SetActive(true);
             canvasFin.SetActive(true);

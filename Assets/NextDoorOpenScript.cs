@@ -30,6 +30,6 @@ public class NextDoorOpenScript : MonoBehaviour
     {
         controller.MoveCameraTo(nextTransform.position);
         transform.parent.gameObject.SetActive(false);
-        nextTransform.gameObject.SetActive(true);
+        nextTransform.parent.gameObject.SetActive(true);
     }
 }

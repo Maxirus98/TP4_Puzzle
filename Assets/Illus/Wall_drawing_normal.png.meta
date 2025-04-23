@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: ff680c8c5b3022a45919b9db602bcbea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6196752380257094615
+    second: Wall_drawing_normal_0
+  - first:
+      213: -6868510294551155528
+    second: Wall_drawing_normal_1
+  - first:
+      213: 879660068809339448
+    second: Wall_drawing_normal_2
+  - first:
+      213: 6627133059931815051
+    second: Wall_drawing_normal_3
+  - first:
+      213: 9048509197801255512
+    second: Wall_drawing_normal_4
+  - first:
+      213: 6249209692935226509
+    second: Wall_drawing_normal_5
+  - first:
+      213: -7652685485753880899
+    second: Wall_drawing_normal_6
+  - first:
+      213: -4638818291008536546
+    second: Wall_drawing_normal_7
+  - first:
+      213: 5720346105477321393
+    second: Wall_drawing_normal_8
+  - first:
+      213: 5322662470753186208
+    second: Wall_drawing_normal_9
+  - first:
+      213: 6314352803055062067
+    second: Wall_drawing_normal_10
+  - first:
+      213: -9146831972756117323
+    second: Wall_drawing_normal_11
+  - first:
+      213: 5089979865150487614
+    second: Wall_drawing_normal_12
+  - first:
+      213: -7595855006078566234
+    second: Wall_drawing_normal_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wall_drawing_normal_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 757
+        width: 355
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92438bdba86b00aa0800000000000000
+      internalID: -6196752380257094615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 802
+        width: 777
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc2a2d27462ea0a0800000000000000
+      internalID: -6868510294551155528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 471
+        width: 658
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832f9740c2e253c00800000000000000
+      internalID: 879660068809339448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_3
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 771
+        width: 321
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cbb7ce76e48fb50800000000000000
+      internalID: 6627133059931815051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 253
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8527cc1ac23c29d70800000000000000
+      internalID: 9048509197801255512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 22
+        width: 306
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8405522b17a9b650800000000000000
+      internalID: 6249209692935226509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 299
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe2adba8133cc590800000000000000
+      internalID: -7652685485753880899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_7
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 229
+        width: 299
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e100ad2875b9f9fb0800000000000000
+      internalID: -4638818291008536546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_8
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 281
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2d349a970c26f40800000000000000
+      internalID: 5720346105477321393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_9
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 22
+        width: 303
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1fb840155edd940800000000000000
+      internalID: 5322662470753186208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_10
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 259
+        width: 276
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cc6946b6611a750800000000000000
+      internalID: 6314352803055062067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 313
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8afa368ccef0180800000000000000
+      internalID: -9146831972756117323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_12
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 299
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c7f2038bd33a640800000000000000
+      internalID: 5089979865150487614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_normal_13
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 0
+        width: 325
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a08055dd1a169690800000000000000
+      internalID: -7595855006078566234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wall_drawing_normal_0: -6196752380257094615
+      Wall_drawing_normal_1: -6868510294551155528
+      Wall_drawing_normal_10: 6314352803055062067
+      Wall_drawing_normal_11: -9146831972756117323
+      Wall_drawing_normal_12: 5089979865150487614
+      Wall_drawing_normal_13: -7595855006078566234
+      Wall_drawing_normal_2: 879660068809339448
+      Wall_drawing_normal_3: 6627133059931815051
+      Wall_drawing_normal_4: 9048509197801255512
+      Wall_drawing_normal_5: 6249209692935226509
+      Wall_drawing_normal_6: -7652685485753880899
+      Wall_drawing_normal_7: -4638818291008536546
+      Wall_drawing_normal_8: 5720346105477321393
+      Wall_drawing_normal_9: 5322662470753186208
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

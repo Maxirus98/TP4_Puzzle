@@ -27,7 +27,7 @@ public class WallSound : MonoBehaviour
         if (currentHits == 4)
         {
             hitSound.PlayOneShot(breakSound);
-            controller.MoveCameraTo(nextTransform.position);
+            StartCoroutine(nameof(GoNext));
         }
 
         // Check if the required number of hits has been reached to break the wall
@@ -43,5 +43,11 @@ public class WallSound : MonoBehaviour
         {
             hitSound.Play();
         }
+    }
+
+    private IEnumerator GoNext()
+    {
+        yield return new WaitForSeconds(2);
+        controller.MoveCameraTo(nextTransform.position);
     }
 }

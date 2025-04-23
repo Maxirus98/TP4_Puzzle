@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 75123491f90277b4e9a924c4b9418630
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7627279033409422271
+    second: Wall_drawing_After_tile_6_completed_0
+  - first:
+      213: 1774980329811656696
+    second: Wall_drawing_After_tile_6_completed_1
+  - first:
+      213: -6742532389700119971
+    second: Wall_drawing_After_tile_6_completed_2
+  - first:
+      213: -5300190731185353205
+    second: Wall_drawing_After_tile_6_completed_3
+  - first:
+      213: -1624451437826874251
+    second: Wall_drawing_After_tile_6_completed_4
+  - first:
+      213: -3686171176769767963
+    second: Wall_drawing_After_tile_6_completed_5
+  - first:
+      213: -7856374168594943245
+    second: Wall_drawing_After_tile_6_completed_6
+  - first:
+      213: 1591172747400839259
+    second: Wall_drawing_After_tile_6_completed_7
+  - first:
+      213: 2964275103903643931
+    second: Wall_drawing_After_tile_6_completed_8
+  - first:
+      213: -1163604650769373906
+    second: Wall_drawing_After_tile_6_completed_9
+  - first:
+      213: 2080065918082831474
+    second: Wall_drawing_After_tile_6_completed_10
+  - first:
+      213: -5454850901203530539
+    second: Wall_drawing_After_tile_6_completed_11
+  - first:
+      213: -7802115021940367799
+    second: Wall_drawing_After_tile_6_completed_12
+  - first:
+      213: -860293266560445666
+    second: Wall_drawing_After_tile_6_completed_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 757
+        width: 355
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cb8d25126762690800000000000000
+      internalID: -7627279033409422271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 802
+        width: 777
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffbab9a43ff1a810800000000000000
+      internalID: 1774980329811656696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 471
+        width: 658
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52db59d386bd62a0800000000000000
+      internalID: -6742532389700119971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_3
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 771
+        width: 321
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e01e19c90f176b0800000000000000
+      internalID: -5300190731185353205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 253
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574e475260ac479e0800000000000000
+      internalID: -1624451437826874251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 22
+        width: 306
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5ba5b48d618dcc0800000000000000
+      internalID: -3686171176769767963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 299
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2f75a815d88f290800000000000000
+      internalID: -7856374168594943245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_7
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 229
+        width: 299
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b500c11fe2bf41610800000000000000
+      internalID: 1591172747400839259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_8
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 281
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19f5b86088332920800000000000000
+      internalID: 2964275103903643931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_9
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 22
+        width: 303
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2526e33cbb0adfe0800000000000000
+      internalID: -1163604650769373906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_10
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 259
+        width: 276
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27459bc8ee0eddc10800000000000000
+      internalID: 2080065918082831474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 313
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc4b03a10a7c44b0800000000000000
+      internalID: -5454850901203530539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_12
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 299
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e518499b159b390800000000000000
+      internalID: -7802115021940367799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_After_tile_6_completed_13
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 0
+        width: 325
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13110405df9f04f0800000000000000
+      internalID: -860293266560445666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wall_drawing_After_tile_6_completed_0: -7627279033409422271
+      Wall_drawing_After_tile_6_completed_1: 1774980329811656696
+      Wall_drawing_After_tile_6_completed_10: 2080065918082831474
+      Wall_drawing_After_tile_6_completed_11: -5454850901203530539
+      Wall_drawing_After_tile_6_completed_12: -7802115021940367799
+      Wall_drawing_After_tile_6_completed_13: -860293266560445666
+      Wall_drawing_After_tile_6_completed_2: -6742532389700119971
+      Wall_drawing_After_tile_6_completed_3: -5300190731185353205
+      Wall_drawing_After_tile_6_completed_4: -1624451437826874251
+      Wall_drawing_After_tile_6_completed_5: -3686171176769767963
+      Wall_drawing_After_tile_6_completed_6: -7856374168594943245
+      Wall_drawing_After_tile_6_completed_7: 1591172747400839259
+      Wall_drawing_After_tile_6_completed_8: 2964275103903643931
+      Wall_drawing_After_tile_6_completed_9: -1163604650769373906
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: b3edc1e161909ad408f154f6ea9ce44b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1258756290382111968
+    second: Wall_drawing_tile_3_completed_0
+  - first:
+      213: -386682154635396286
+    second: Wall_drawing_tile_3_completed_1
+  - first:
+      213: -2759765435143292997
+    second: Wall_drawing_tile_3_completed_2
+  - first:
+      213: 60936366901387492
+    second: Wall_drawing_tile_3_completed_3
+  - first:
+      213: 4763571989420957564
+    second: Wall_drawing_tile_3_completed_4
+  - first:
+      213: 7719811190598666277
+    second: Wall_drawing_tile_3_completed_5
+  - first:
+      213: 3675715722229440244
+    second: Wall_drawing_tile_3_completed_6
+  - first:
+      213: -6213561747943791093
+    second: Wall_drawing_tile_3_completed_7
+  - first:
+      213: -8297007088085271611
+    second: Wall_drawing_tile_3_completed_8
+  - first:
+      213: 579935342729869127
+    second: Wall_drawing_tile_3_completed_9
+  - first:
+      213: 1841381959048256508
+    second: Wall_drawing_tile_3_completed_10
+  - first:
+      213: 6931422881899835853
+    second: Wall_drawing_tile_3_completed_11
+  - first:
+      213: 830059973168299276
+    second: Wall_drawing_tile_3_completed_12
+  - first:
+      213: 5821238397347117751
+    second: Wall_drawing_tile_3_completed_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 757
+        width: 355
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4a30b4d20087110800000000000000
+      internalID: 1258756290382111968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 802
+        width: 777
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b79fb01aa32aaf0800000000000000
+      internalID: -386682154635396286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 471
+        width: 658
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7f1e665f753b9d0800000000000000
+      internalID: -2759765435143292997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_3
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 771
+        width: 321
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e06f078d4d78d000800000000000000
+      internalID: 60936366901387492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 253
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fdf636c7b9b1240800000000000000
+      internalID: 4763571989420957564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 22
+        width: 306
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52808b46067422b60800000000000000
+      internalID: 7719811190598666277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 299
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feddce79f3c20330800000000000000
+      internalID: 3675715722229440244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_7
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 229
+        width: 299
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06ead7d28ef4c9a0800000000000000
+      internalID: -6213561747943791093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_8
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 281
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb77c7430c1bdc80800000000000000
+      internalID: -8297007088085271611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_9
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 22
+        width: 303
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747bb102f185c0800800000000000000
+      internalID: 579935342729869127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_10
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 259
+        width: 276
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb52ecb227ed8910800000000000000
+      internalID: 1841381959048256508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 313
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc177a7036c513060800000000000000
+      internalID: 6931422881899835853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_12
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 299
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d77f2d527f48b00800000000000000
+      internalID: 830059973168299276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_drawing_tile_3_completed_13
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 0
+        width: 325
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba3dbaea7139c050800000000000000
+      internalID: 5821238397347117751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wall_drawing_tile_3_completed_0: 1258756290382111968
+      Wall_drawing_tile_3_completed_1: -386682154635396286
+      Wall_drawing_tile_3_completed_10: 1841381959048256508
+      Wall_drawing_tile_3_completed_11: 6931422881899835853
+      Wall_drawing_tile_3_completed_12: 830059973168299276
+      Wall_drawing_tile_3_completed_13: 5821238397347117751
+      Wall_drawing_tile_3_completed_2: -2759765435143292997
+      Wall_drawing_tile_3_completed_3: 60936366901387492
+      Wall_drawing_tile_3_completed_4: 4763571989420957564
+      Wall_drawing_tile_3_completed_5: 7719811190598666277
+      Wall_drawing_tile_3_completed_6: 3675715722229440244
+      Wall_drawing_tile_3_completed_7: -6213561747943791093
+      Wall_drawing_tile_3_completed_8: -8297007088085271611
+      Wall_drawing_tile_3_completed_9: 579935342729869127
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
