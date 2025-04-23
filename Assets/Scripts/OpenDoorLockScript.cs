@@ -3,7 +3,8 @@ using UnityEngine;
 public class OpenDoorLockScript : MonoBehaviour
 {
     private SpriteRenderer sr;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private GameObject codePorte;
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -23,5 +24,10 @@ public class OpenDoorLockScript : MonoBehaviour
     private void OnMouseExit()
     {
         sr.color = Color.white;
+    }
+
+    private void OnMouseDown()
+    {
+        codePorte.SetActive(!codePorte.activeInHierarchy);
     }
 }

@@ -4,53 +4,32 @@ using UnityEngine;
 
 public class ViewHologramScript : MonoBehaviour
 {
+    public bool IsEyeOpen = false;
+
     private SpriteRenderer sr;
     [SerializeField] private Sprite openEyeSprite;
     [SerializeField] private Sprite closedEyeSprite;
-    [SerializeField] private GameObject hologramme;
 
-    private float secondsToWait = 5;
-    private bool isEyeOpen = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+        // Sr du parent
+        gameObject.SetActive(false);
+        sr = GetComponentInParent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ToggleHologram()
     {
-        
-    }
-
-    private void OnMouseEnter()
-    {
-        sr.color = Color.green;
-    }
-
-    private void OnMouseExit()
-    {
-        sr.color = Color.white;
-    }
-
-    private void OnMouseDown()
-    {
-        sr.color = Color.white;
-        sr.sprite = openEyeSprite;
-        isEyeOpen = true;
-        hologramme.SetActive(true);
-
-        if (isEyeOpen)
+        if (IsEyeOpen)
         {
-            StartCoroutine(nameof(CloseEye));
+            IsEyeOpen = false;
+            gameObject.SetActive(false);
+            sr.sprite = closedEyeSprite;
+        } else
+        {
+            sr.color = Color.white;
+            sr.sprite = openEyeSprite;
+            IsEyeOpen = true;
+            gameObject.SetActive(true);
         }
-    }
-
-    private IEnumerator CloseEye()
-    {
-        yield return new WaitForSeconds(secondsToWait);
-        isEyeOpen = false;
-        hologramme.SetActive(false);
-        sr.sprite = closedEyeSprite;
     }
 }
